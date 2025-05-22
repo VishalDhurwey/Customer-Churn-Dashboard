@@ -5,7 +5,7 @@ This project helps an e-commerce business identify **high-value customers**, **c
 ---
 
 ## 🛠️ Tools Used
-- **Python (Pandas, NumPy)** – Data preprocessing
+- **Python** – Data preprocessing
 - **MySQL** – RFM calculations and segmentation logic
 - **Power BI** – Interactive dashboard and visual insights
 
