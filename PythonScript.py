@@ -46,13 +46,13 @@ order_items_cleaned = order_items.groupby("order_id").agg({
 # STEP 3: FINAL CLEANED TABLES
 # --------------------------
 
-# ✅ Clean Customers Table
+#  Clean Customers Table
 customers_cleaned = customers[['customer_id', 'customer_unique_id', 'customer_zip_code_prefix', 'customer_city', 'customer_state']]
 
-# ✅ Clean Orders Table (remove unused columns)
+#  Clean Orders Table (remove unused columns)
 orders_cleaned = orders[['order_id', 'customer_id', 'order_status', 'order_purchase_timestamp', 'order_delivered_customer_date']]
 
-# ✅ Merge Order Summary (orders + payments + items)
+#  Merge Order Summary (orders + payments + items)
 order_summary = orders_cleaned \
     .merge(order_items_cleaned, on='order_id', how='left') \
     .merge(payments_cleaned, on='order_id', how='left')
@@ -67,4 +67,4 @@ order_items_cleaned.to_csv("cleaned_order_items.csv", index=False)
 payments_cleaned.to_csv("cleaned_payments.csv", index=False)
 order_summary.to_csv("order_summary.csv", index=False)  # optional for Power BI or MySQL
 
-print("✅ Data cleaned and saved as CSVs!")
+print(" Data cleaned and saved as CSVs!")
