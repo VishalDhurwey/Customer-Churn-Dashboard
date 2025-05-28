@@ -1,6 +1,6 @@
 # 📊 Customer Segmentation & Churn Analysis using RFM 
 
-A complete end-to-end data analytics project using **SQL**, **Power BI**, and **RFM segmentation** to identify customer purchase behavior, churn risk, and actionable business insights from Brazilian e-commerce data.
+A complete end-to-end data analytics project using **Python**, **SQL**, **Power BI**, and **RFM segmentation** to identify customer purchase behavior, churn risk, and actionable business insights from Brazilian e-commerce data.
 
 ![Customer Churn Dashboard 1](Customer%20Churn%20Dashboard-1.png)
 ![Customer Churn Dashboard 2](Customer%20Churn%20Dashboard-2.png)
@@ -32,6 +32,7 @@ This project analyzes customer order behavior using **Recency, Frequency, and Mo
 
 ## 🔧 Tools & Technologies
 
+-**Python:** Data merging, cleaning, null handling
 - **SQL (MySQL):** Data cleaning, transformation, and RFM segmentation logic  
 - **Power BI:** Data modeling, DAX measures, and dashboard creation  
 - **Excel/CSV:** Intermediate exploration and data export  
