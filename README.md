@@ -2,8 +2,8 @@
 
 A complete end-to-end data analytics project using **SQL**, **Power BI**, and **RFM segmentation** to identify customer purchase behavior, churn risk, and actionable business insights from Brazilian e-commerce data.
 
-![Customer Churn Dashboard 1](./images/Customer%20Churn%20Dashboard-1.png)
-![Customer Churn Dashboard 2](./images/Customer%20Churn%20Dashboard-2.png)
+![Customer Churn Dashboard 1](Customer%20Churn%20Dashboard-1.png)
+![Customer Churn Dashboard 2](Customer%20Churn%20Dashboard-2.png)
 
 ---
 
